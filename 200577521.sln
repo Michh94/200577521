@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichelleBarajas_200577521", "MichelleBarajas_200577521\MichelleBarajas_200577521.csproj", "{DF8B5177-FF77-4640-BD7D-87A5053215BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{E33AA248-A1B3-47C9-B717-BAE5E99128D3}"
+	ProjectSection(SolutionItems) = preProject
+		Student.cs = Student.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A30C23AE-1541-4E96-8507-22FAAA88EE66}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationDbContext.cs = ApplicationDbContext.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF8B5177-FF77-4640-BD7D-87A5053215BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8B5177-FF77-4640-BD7D-87A5053215BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8B5177-FF77-4640-BD7D-87A5053215BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8B5177-FF77-4640-BD7D-87A5053215BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C0813B2-F40C-4B41-A942-3A863598892F}
+	EndGlobalSection
+EndGlobal
